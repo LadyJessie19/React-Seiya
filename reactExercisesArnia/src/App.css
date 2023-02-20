@@ -8,3 +8,18 @@
 body{
   background-color: rgb(234, 118, 166);
 }
+
+.bodyExe2{
+  position: relative;
+  left: -35px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#1ce5f3, #5169a1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
