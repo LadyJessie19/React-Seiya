@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: rgb(234, 118, 166);
+  background-color: #ea76a6;
 }
 
 .bodyExe2{
@@ -22,4 +22,33 @@ body{
   background: linear-gradient(#1ce5f3, #5169a1);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.questionLine{
+  display:flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 1em;
+  background-color: #c15d87;
+  width: 70vw;
+  padding: 1em;
+}
+
+.responseLine{
+  display: none;
+  position: relative;
+  padding: 1em;
+  max-width: 70vw;
+  background-color: #da709c;
+}
+
+.block{
+  display:block;
+  animation: open 0.1s linear;
+  margin-bottom: 1em;
+}
+
+@keyframes open {
+  0% {bottom: 50px;}
+  100% {bottom: 0px;}
 }
