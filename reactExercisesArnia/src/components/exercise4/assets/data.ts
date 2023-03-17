@@ -5,7 +5,7 @@ import residentEvil from "./residentEvil.svg"
 import godOfWar from "./godOfWar.svg"
 import horizon from "./horizon.svg"
 
-const games = [
+export const catalog = [
     {id: 1,
     name: 'Battlefield',
     img: battlefield,
@@ -31,5 +31,3 @@ const games = [
     img: horizon,
     price: '189,90'}   
 ]
-
-export default games

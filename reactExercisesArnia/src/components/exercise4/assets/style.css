@@ -1,7 +1,7 @@
 .header{
     background-color: #6950A1;
     color: white;
-    width: 100vw;
+    width: 70vw;
     height: 10vw;
     padding: 0 5rem;
     display: flex;
@@ -107,4 +107,82 @@ input[type=checkbox]{
 input[type=checkbox]:checked{
     background-color: #6950A1;
     appearance: unset;
+}
+
+.box-title{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.box-title h1{
+    font-size: 2rem;
+    font-weight: normal;
+}
+.box-title .box{
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: var(--primary);
+    color: #ffff;
+    border-radius: .25rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    width: 39vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product .image{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20%;
+    margin-bottom: .25rem;
+}
+
+.product .info{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.product .info .checkbox{
+    border: 1px solid var(--primary);
+    width: 20px;
+    height: 20px;
+    border-radius: .25rem;
+    margin-right: 5px;
+    background-color: #ffff;
+}
+
+.product .info .checkbox .selected{
+    background: crimson
+}
+
+.button-footer{
+    text-align: end;
+}
+
+.btn{
+    padding: .5rem 1.5rem;
+    font-size: 18px;
+    color: #ffff;
+    text-transform: uppercase;
+    border-radius: .25rem;
+    cursor: pointer;
 }

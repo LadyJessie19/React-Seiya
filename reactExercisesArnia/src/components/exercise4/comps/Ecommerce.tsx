@@ -1,7 +1,8 @@
 import {useState} from 'react'
-import games from '../assets/data'
 import Header from './Header'
 import '../assets/style.css'
+import Footer from './Footer'
+import Main from './Main'
 
 const Ecommerce = () => {
     const [cart, setCart] = useState(0)
@@ -13,6 +14,8 @@ const Ecommerce = () => {
         <>
         <h2>Ecommerce</h2>
         <Header />
+        <Main />
+        <Footer/>
         </>
     )
 }
